@@ -1,5 +1,6 @@
-# Health-Risk-Prediction-Optimizing-with-Principal-Component-Analysis-PCA-
-This project demonstrates an end-to-end data science workflow, from data exploration and preprocessing to model development, evaluation, and interpretation, ultimately providing actionable insights for proactive healthcare interventions.
+# Health Risk Prediction: Optimizing with Principal Component Analysis (PCA)
+
+# Health Risk Prediction using PCA & Supervised Machine Learning
 
 ## Project Overview
 
@@ -76,13 +77,7 @@ My approach to this supervised learning project, with a focus on dimensionality 
 - **Thought Process:** Correlation analysis is vital before PCA. High correlations between features suggest redundancy and confirm PCA's utility. Visualizing distributions helps understand the nature of each biomarker.
 
 #### 4. Model Development & Selection
-- Several supervised classification models were trained and evaluated, including:
-    - Logistic Regression
-    - Decision Tree Classifier
-    - Random Forest Classifier
-    - Gradient Boosting Classifier
-- Model performance was assessed using metrics such as accuracy, precision, recall, and F1-score. The **Gradient Boosting Classifier** was selected as the best-performing model for its high accuracy and robustness.
-
+- Logistic Regression was used to train and evaluate model
 
 ### 5. Principal Component Analysis (PCA)
 - **Objective:** Reduce the dimensionality of the biomarker data while retaining as much variance (information) as possible, and to mitigate multicollinearity.
@@ -148,7 +143,6 @@ The trained **Gradient Boosting model**, along with the **StandardScaler** and *
 
 ## Files in this Repository
 
--   `Case study on Supervised ML - Principal Component Analysis 2.ipynb`: The main Jupyter Notebook containing all the code for data loading, cleaning, EDA, PCA implementation, model training, and evaluation.
+-   `Health Risk Prediction using PCA & Supervised Machine Learning.ipynb`: The main Jupyter Notebook containing all the code for data loading, cleaning, EDA, PCA implementation, model training, and evaluation.
 -   `health_risk_dataset.csv`: The raw dataset used for the project.
--   `Case Study on Supervised ML - Health Risk.pptx.pdf`: The presentation slides outlining the business problem, project workflow, and key findings.
 -   `README.md`: This file.
