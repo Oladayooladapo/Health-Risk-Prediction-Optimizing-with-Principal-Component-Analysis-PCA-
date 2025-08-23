@@ -1,7 +1,5 @@
 # Health Risk Prediction: Optimizing with Principal Component Analysis (PCA)
 
-# Health Risk Prediction using PCA & Supervised Machine Learning
-
 ## Project Overview
 
 This project focuses on developing a predictive model for health risk assessment using detailed biomarker data. The primary objective is to classify patients into "High Risk" or "Low Risk" categories based on various health indicators. The study leverages **Principal Component Analysis (PCA)** to enhance model performance by reducing dimensionality and focusing on the most significant patterns in the data.
